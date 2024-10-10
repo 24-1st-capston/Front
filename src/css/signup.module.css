@@ -1,0 +1,130 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 110px);
+}
+
+.box_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 800px;
+    height: auto;
+    border: 1.6px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.name input {
+    width: 150%;
+    height: 80px;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1.6px solid #000;
+    border-radius: 15px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+}
+
+.number input {
+    width: 150%;
+    height: 80px;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1.6px solid #000;
+    border-radius: 15px;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+}
+
+.password input {
+    width: 150%;
+    height: 80px;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1.6px solid #000;
+    border-radius: 15px;
+}
+
+.button_container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.certified input {
+    flex: 1;
+    height: 80px;
+    width: 350px;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1.6px solid #000;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.cerbutton button {
+    width: 95px;
+    height: 80px;
+    padding: 10px;
+    background-color: #82cd47;
+    margin-bottom: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+    border: 1.6px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.subbutton button {
+    width: 455px;
+    height: 60px;
+    padding: 10px;
+    background-color: #82cd47;
+    font-size: 17px;
+    border: 1.6px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cerbutton button:hover {
+    background-color: #61b334;
+}
+
+.subbutton button:hover {
+    background-color: #61b334;
+}
+
+.timer {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+}

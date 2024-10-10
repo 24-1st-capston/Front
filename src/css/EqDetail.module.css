@@ -1,0 +1,96 @@
+.main {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main_container {
+   display: flex;
+   align-items: stretch;
+   text-align: center;
+   text-align: left;
+   margin-top: 130px;
+}
+
+.image_slider {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   margin-right: 50px;
+}
+
+.nav_btn {
+   background: none;
+   border: none;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+.main_img {
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.user_info {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.details {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%; 
+}
+
+.user_icon img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+#title {
+   margin: 2px;
+   font-size: 30px;
+}
+
+#date {
+   margin-top: auto;
+   text-align: left;
+}
+
+#date {
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+
+#content {
+   margin: 2px 0;
+   font-size: 20px;
+   width: 400px;
+   height: 195px;
+}
+
+.buttons {
+   display: flex;
+   gap: 10px;
+}
+
+.chat_btn {
+   width: 120px;
+   padding: 10px;
+   background-color: #82cd47;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 15px;
+}
+
+.chat_btn:hover {
+   background-color: #61b334;
+}
