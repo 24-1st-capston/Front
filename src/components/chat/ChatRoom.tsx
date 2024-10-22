@@ -30,7 +30,7 @@ const ChatRoom: React.FC = () => {
     }, [token, navigate])
 
     useEffect(() => {
-        const ws = new WebSocket(`ws://ec2-43-203-248-226.ap-northeast-2.compute.amazonaws.com:8080/chat/${chatRoomId}`);
+        const ws = new WebSocket(`ws://ec2-3-36-98-19.ap-northeast-2.compute.amazonaws.com:8080/chat/${chatRoomId}`);
 
         ws.onopen = () => {
             console.log('WebSocket 연결 성공');
